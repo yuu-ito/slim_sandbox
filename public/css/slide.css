@@ -1,0 +1,10 @@
+#slideframe{
+   height:320px;
+   /*width:300px;*/
+   overflow:hidden;
+}
+#slideframe img{
+   height:300px;
+   margin:10px 5px;
+}
+

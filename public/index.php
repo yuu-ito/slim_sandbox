@@ -49,6 +49,15 @@ $app->get('/dbaccess',function() use ($app){
 });
 
 
+
+/*
+ * Slide show page
+ */
+
+$app->get('/slide',function() use ($app){
+  $app->render('slide.html',array('Slide Page'));
+});
+
 $app->run();
 
 
