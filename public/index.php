@@ -13,7 +13,7 @@ $config = array(
   'log.level' => 4,
   'debug' => true,
   'view' => 'TwigView', // use template engin for Twig
-  'templates.path' => '../vender/views/'
+  'templates.path' => '../views/'
 );
 
 $app = new Slim($config);
